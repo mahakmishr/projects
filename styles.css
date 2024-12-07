@@ -1,0 +1,270 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursives, Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url('gallery/i17.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: cursive;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+nav ul {
+    list-style-type: space-counter;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.intro-section {
+    background-color: #111;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.intro-section h2 {
+    font-family: cursive;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.about-section {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.about-section h2 {
+    font-family: cursive;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f0fa166;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.linkedin-button:hover {
+    background-color: #046293;
+}
+
+.photos-section {
+    background-color: #341e2877;
+    color: #fff;
+}
+
+.photos-section h2 {
+    font-family: cursive;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.photos-slider {
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-top: 40px;
+}
+
+.photo-item {
+    display: -webkit-inline-flex;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.photo-item {
+    flex: 1 2 calc(33.333% - 10px);
+    box-sizing: border-box;
+}
+
+.photo-item img {
+    width: 300px; /* Adjust image width as needed */
+    height: auto;
+    border-radius: 5px;
+}
+
+.photo-item:hover {
+    transform: scale(1.5);
+}
+
+.contact-section {
+    background-color: #1e1c23;
+    color: #e4e4e4;
+    padding-bottom: 100px; /* Ensure footer visibility */
+}
+
+.contact-section h2 {
+    font-family: cursive;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgba(230, 222, 235, 0.1);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(228, 222, 222, 0.2);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #d8c8c8;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ebe3e3;
+    border-radius: 3px;
+    background-color: rgba(198, 198, 181, 0.2);
+    color: #333;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #72bce4;
+    color: #0f1010;
+    border:  thick double #090a0b;;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #046293;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links h3 {
+    font-family: cursive;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ebe2e2;
+}
+
+.social-links a {
+    display: -webkit-inline-box;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style-type: space-counter;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links li a {
+    color: #4f2366;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: #f0f0f0;
+}

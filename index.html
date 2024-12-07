@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahak Mishra - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .playlist {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .playlist iframe, .playlist img {
+            width: 300px;
+            height: 380px;
+            border: none;
+        }
+        .playlist img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mahak Mishra</h1>
+            <p class="tagline">Exploring my Universe</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href=#photos>Photos</a></li>
+                    <li><a href=#contact>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="intro-section">
+        <div class="container">
+            <h2>Welcome to My Creative Space</h2>
+            <p>Discover my world of art, technology, and imagination.</p>
+            <div class="playlist">
+            
+                <iframe src="https://open.spotify.com/embed/playlist/3EjgJ7ZGwUaFYFt7J6lZDZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm Mahak Mishra, a curious explorer fascinated by everything from the earth’s depths to the vastness of the cosmos, also a coding enthusiast and soon-to-be graduate, passionate about learning new technologies and exploring the endless possibilities in the world of programming. Let me take you on a journey through my vision.</p>
+            <a href="https://www.linkedin.com/in/mahak-mishra-154302272" class="linkedin-button">Visit my LinkedIn</a>
+        </div>
+    </section>
+
+    <section id="photos" class="photos-section">
+        <div class="container">
+            <h2>Best of Mine</h2>
+            <div class="photos-slider">
+                <!-- Placeholder for photos -->
+                <div class="photo-item">
+                    <img src="gallery/image1.jpeg" alt="Photo 1" >
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/image2.jpeg" alt="Photo 2">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i3.jpeg" alt="Photo 3">
+                </div>
+                <div class="photo-item">
+                    <video autoplay="on" src="./gallery/i4.mp4" height="250" controls autoplay muted>
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i5.jpeg" alt="Photo 5">
+                </div>
+                <div class="photo-item">
+                    <img  src="gallery/i6.jpeg" alt="Photo 6">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i7.jpeg" alt="Photo 7">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i8.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i9.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i10.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i11.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i12.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i13.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i14.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i16.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i17.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i18.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i19.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i20.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i21.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i22.jpeg" alt="Photo 8">
+                </div>
+                <div class="photo-item">
+                    <img src="gallery/i23.jpeg" alt="Photo 8">
+                </div>
+            
+            </div>
+            <h2>Swipe right</h2>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Let's do some chit-chat.</h2>
+        <form action="https://formspree.io/f/meojggke" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    
+    
+            <div class="social-links">
+                <h3>Connect with Mahak:</h3>
+                <a href="https://www.instagram.com/_mahak_mishra" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="https://twitter.com/mahak_mishraa" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+                <!-- Add more social media links as needed -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Mahak Mishra. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
